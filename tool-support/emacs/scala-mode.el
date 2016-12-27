@@ -197,7 +197,7 @@ When started, run `scala-mode-hook'.
    )
 
   (use-local-map scala-mode-map)
-  (turn-on-font-lock)
+  (turn-on-font-lock-if-desired)
   (scala-mode-feature-install)
   )
 
